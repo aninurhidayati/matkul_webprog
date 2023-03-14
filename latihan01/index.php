@@ -17,6 +17,6 @@
 	echo "Perkalian $nilai_quis * $nilai_tugas = $hasil3 <br>";
 	echo "Pembagian $nilai_quis / $nilai_tugas = $hasil4 <br>";
 	echo "Exponen : $hasil5 , Modulus: $hasil6";
-	echo "<hr> ";
+	echo "<hr><hr> ";
 	echo "";
 ?>
