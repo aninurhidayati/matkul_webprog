@@ -1,7 +1,7 @@
 <?php
 	echo "<b>Hello worlds</b> <hr/>";
 	$nama = 'Ani';
-	$nama2 = "Nur";
+	$nama2 = "Nur.H";
 	//echo $nama." , ".$nama2;
 	/** echo untuk menampilkan output */
 	echo "$nama $nama2 <br>";
