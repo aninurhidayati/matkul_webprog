@@ -1,7 +1,7 @@
 <?php
 	echo "<b>Hello worlds</b> <hr/>";
 	$nama = 'Ani';
-	$nama2 = "Nur.H";
+	$nama2 = "Nur.Hi";
 	/** echo untuk menampilkan output */
 	echo "$nama $nama2 <br>";
 	$nilai_quis = 80;
