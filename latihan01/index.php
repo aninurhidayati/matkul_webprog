@@ -1,6 +1,5 @@
 <?php
 	echo "<b>Hello worlds</b> <hr/>";
-
 	$nama = 'Ani';
 	$nama2 = "Nur";
 	//echo $nama." , ".$nama2;
@@ -19,4 +18,6 @@
 	echo "Perkalian $nilai_quis * $nilai_tugas = $hasil3 <br>";
 	echo "Pembagian $nilai_quis / $nilai_tugas = $hasil4 <br>";
 	echo "Exponen : $hasil5 , Modulus: $hasil6";
+	echo "<hr> ";
+	echo "";
 ?>
