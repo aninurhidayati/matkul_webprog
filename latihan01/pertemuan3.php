@@ -48,7 +48,9 @@
 	 foreach($calonsukses as $d){
 		echo $d." , ";
 	 }
+	 echo "<hr>";
 	 for($x=0; $x < count($calonsukses); $x++){
+		echo $x;
 		echo $calonsukses[$x];
 	 }
 	?>
