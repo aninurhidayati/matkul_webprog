@@ -39,7 +39,7 @@ else if(isset($_GET['aksi'])){
 		$query = mysqli_query($koneksidb, "select * from mst_user where iduser=".$_GET['id']."") 
      	         or die("Data tidak ditemukan".mysqli_error($koneksidb)) ;
 		$data = mysqli_fetch_array($query);
-		$nama = $data['user'];
+		$nama = $data['username'];
 		$pasw = $data['password'];
 		$exproses = "update";
 		$idnya = $_GET['id'];
