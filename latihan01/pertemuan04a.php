@@ -9,15 +9,15 @@
 </head>
 
 <body>
-	<form action="proses04a.php" method="POST">
+	<form action="proses.php" method="POST">
 		<table>
 			<tr>
 				<td>Nilai-1</td>
-				<td><input type="text" name="nilai1" id="nilai1"></td>
+				<td><input type="text" name="nilai_a" id="nilai1"></td>
 			</tr>
 			<tr>
 				<td>Nilai-2</td>
-				<td><input type="text" name="nilai2" id="nilai2"></td>
+				<td><input type="text" name="nilai_b" id="nilai2"></td>
 			</tr>
 			<tr>
 				<td colspan="2">
