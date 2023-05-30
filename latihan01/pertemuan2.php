@@ -28,16 +28,9 @@ echo "<hr>";
 jika mahasiswa seragam tidak sesuai maka " laksanakan hukuman"
 selain itu "kena SP"*/
 //inputan
-$mahasiswa = ""; //ini yang dirubah 
-//pengecekkan dan ouput nya
-if($mahasiswa == "seragam lengkap"){
+$mahasiswa = ""; 
+if($mahasiswa = 'seragam lengkap'){
 	echo "silahkan mengikuti kuliah";
-}
-else if($mahasiswa == "seragam tidak sesuai"){
-	echo "laksanakan hukuman";
-}
-else if($mahasiswa == ""){
-	echo "isi dulu!!";
 }
 else{
 	echo "kena SP";
