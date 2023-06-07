@@ -35,3 +35,8 @@ label {
   padding: 10px;
   background-color: beige;
 }
+.btnx {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: rgb(202, 9, 9);
+}
