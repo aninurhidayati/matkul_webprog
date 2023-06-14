@@ -12,7 +12,7 @@
 	if($cekhasil > 0){
 		echo "data ditemukan, Selamat Anda Berhasil Login";
 		$_SESSION['userlog'] = $usernya; //menampung username
-		$_SESSION['namalog'] =  $hasil['nama']; //menampung nama
+		$_SESSION['namalogin'] =  $hasil['nama']; //menampung nama
 		header("Location: home.php");
 	}
 	else{

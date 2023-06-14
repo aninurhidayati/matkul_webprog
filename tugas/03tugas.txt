@@ -1,0 +1,17 @@
+1)buat database : dblp3i
+2)buat tabel
+- desain tabel mst_mahasiswa (min.7field) ->syarif
+- desain tabel mst_dosen (min.7field) ->dzaky
+- desain tabel mst_matakuliah (min.7 field) ->daud
+- desain tabel tst_absensi (min.7 field) ->fero
+
+3) buat tampilan html nya , berupa tabel, ada tombol tambah, edit/hapus (index.php)
+4) buat form inputannya sesuai field/kolom ditabel database
+5) buat file koneksidb,
+6) tampilkan data dari database ke tampilan/view html pada no.3
+7) buat proses simpan ke tabel database, hanya insert saja (proses.php)
+
+**tambahkan folder tugas-03 di repository matkul_webprog
+**buat screenshoot di word
+
+

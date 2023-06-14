@@ -1,11 +1,8 @@
 <?php 
-require_once("koneksi_db.php");
 session_start();
-//ini untuk cek, bahwa user harus login terlebih dahulu
-//jika belum maka kembali ke index (halaman login)
-if(!isset($_SESSION['namalog'])){
-	header("Location: index.php");
-}
+require_once("koneksi_db.php");
+require_once("config.php");
+securitylogin();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,9 +17,10 @@ if(!isset($_SESSION['namalog'])){
 
 <body>
 	<div class="container">
-		<h2>Hai, <?php echo $_SESSION['namalog']; ?></h2>
+		<h2>Hai, <?php echo $_SESSION['namalogin']; ?></h2>
 		<a href="?modul=mod_user" class="btn">Modul User</a>
 		<a href="?modul=mod_pegawai" class="btn">Modul Pegawai</a>
+		<a href="logout.php" class="btn">Logout</a>
 		<div class="konten">
 			<!-- semua modul akan ditampilkan disini-->
 			<?php 				
@@ -39,6 +37,8 @@ if(!isset($_SESSION['namalog'])){
 			?>
 		</div>
 	</div>
+	<!-- cara menyisipkan file javascript -->
+	<script src="config.js"></script>
 </body>
 
 </html>
