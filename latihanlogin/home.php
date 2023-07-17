@@ -29,10 +29,23 @@ securitylogin();
 					//variabel modul dan tidak ditemukan variabel aksi 
 					include_once("".$_GET['modul']."/index.php");
 				}
-				if(isset($_GET['modul']) && isset($_GET['aksi'])){
+				else if(isset($_GET['modul']) && isset($_GET['aksi'])){
 					//akan menampilkan file form.php jika ada pengiriman
 					//variabel modul dan aksi 
 					include_once("".$_GET['modul']."/form.php");
+				}
+				else{
+					echo '<select id="cmbpegawai">';
+					echo '<option value="">Pilih Pegawai</option>';
+					$query = mysqli_query($koneksidb, "select * from mst_pegawai");
+					while($r=mysqli_fetch_array($query)){
+						echo '<option value="'.$r['idpegawai'].'" 
+						data-jabatan="'.$r['jabatan'].'" 
+						data-status="'.$r['status'].'" 
+						>'.$r['nama_peg'].'</option>';
+					}
+					echo '</select>';
+					echo '<input type="text" id="jabatan" readonly>';
 				}
 			?>
 		</div>
